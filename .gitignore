@@ -1,0 +1,10 @@
+# idea
+.idea
+*.iml
+logs/
+
+# building
+target
+
+# vertx
+.vertx

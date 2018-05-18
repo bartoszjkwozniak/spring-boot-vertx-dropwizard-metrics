@@ -1,0 +1,16 @@
+# default profile, you can change it with parameter: -Dspring.profiles.active=test
+spring.profiles.active: dev
+
+# commons
+#logging.level.ROOT: DEBUG
+security.basic.enabled: false
+management.security.enabled: false
+
+---
+# konfiguracja dev
+spring:
+  profiles: dev
+
+server:
+  address: 0.0.0.0
+  port: 12345
